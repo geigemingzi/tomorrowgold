@@ -1,0 +1,16 @@
+项目需求：
+
+	移动端：
+		1.技术点：vue框架  mint-ui框架 Font-awesome图标 axios请求 vue-router  vuex 
+		2.路由分配：一级路由/login /reg  /home
+			子页面写在/home/
+				
+	管理系统：
+		1.技术：react框架  mint-ui框架 Font-awesome图标 axios请求 react-router redux
+
+
+	代码要求：
+		样式用sass来编写
+		组件放在对应的文件夹下面文件夹
+		公共组件放在 common文件夹下面
+					
