@@ -1,0 +1,22 @@
+.top-left {
+    width: 10%;
+    height: 1.9375rem;
+    margin-top: .8125rem;
+    margin-left: .9375rem;
+    float: left;
+}
+
+.top-conter {
+    float: left;
+    width: 72%;
+    height: 2.125rem;
+    margin-top: .625rem;
+}
+
+.top-right {
+    float: right;
+    width: 2rem;
+    height: 1.9375rem;
+    margin-top: .8125rem;
+    margin-left: .625rem;
+}
