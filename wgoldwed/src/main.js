@@ -4,6 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// 全局配置
+import './modules/config'
+
+// 默认样式
+import './stylesheets/base.css'
+
+// 公共样式
+import './stylesheets/common.css'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
