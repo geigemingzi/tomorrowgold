@@ -1,6 +1,6 @@
 <template>
   <div id="box">    
-        <mt-tabbar>
+        <mt-tabbar fixed = 'true'>
             <router-link active-class="active" class="nav" v-for = "nav in navs" :key = "nav.id" :to = "nav.path" exact >
                 <i class="icon" :class="'fa fa-' + nav.icon"></i>
                 <p>{{nav.title}}</p>
@@ -11,10 +11,6 @@
 </template>
 
 <script>
-    import Vue from 'vue';
-    import { Tabbar, TabItem } from 'mint-ui';
-    Vue.component(Tabbar.name, Tabbar);
-    Vue.component(TabItem.name, TabItem);
     export default {
         name: 'Box',
         data () {
@@ -26,18 +22,13 @@
                     { id: 4, title: '会员', icon: 'user-circle-o', path: '/box/member'}
                 ]
             }
-        },
-        methods: {
-            // 实现路由跳转
-            ToLink(){
-               console.log(11)
-            },
         }
     }
 </script>
 
 <style scoped lang = 'scss'>
     #box {
+        z-index: 100;
         .nav {
             padding-top: .375rem;
             width: 5rem;

@@ -24,3 +24,6 @@ import './GlobalComponents';
 // 字体图标
 import 'font-awesome/css/font-awesome.min.css';
 
+// 按需加载
+import './load'
+

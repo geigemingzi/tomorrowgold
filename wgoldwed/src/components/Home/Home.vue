@@ -1,15 +1,19 @@
 <template>
     <div id="home">
         <SearchBox/>
-        主页
+        <Banner/>
     </div>
 </template>
 
 <script>
 
     import './Home.scss'
+    import Banner from './banner/banner'
 
     export default {
         name: 'Home',
+        components: {
+            Banner
+        }
     }
 </script>

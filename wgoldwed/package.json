@@ -19,6 +19,8 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/vue-fontawesome": "^0.1.1",
     "axios": "^0.18.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-es2015": "^6.24.1",
     "font-awesome": "^4.7.0",
     "mint-ui": "^2.2.13",
     "vue": "^2.5.2",
