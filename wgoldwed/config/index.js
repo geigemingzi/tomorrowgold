@@ -10,7 +10,18 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/api': {
+        target: 'http://restapp.tomorrowgold.com',
+        changeOrigin: true,
+        pathRewrite: { '^/api': '' }
+      },
+      '/mongo': {
+        target: 'http://10.3.137.2/1234',
+        changeOrigin: true,
+        pathRewrite: { '^/mongo': '' }
+      }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
